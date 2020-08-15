@@ -1,5 +1,11 @@
 This simple batch script uses Microsoft Teams module for powershell to add people to teams using a csv.  
 
+# Update  15.08.2020 #
+
+Now you can run the **powershell.ps1** script which will take care of the module installation and login for you. Or else you can use the same **script.bat** file.
+
+# #
+
 ## Prerequisites ##
 
 - In your search bar in Windows 10 or in your Start button, search for PowerShell. Select the Windows PowerShell app and right click and **Run as administrator**.
