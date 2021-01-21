@@ -1,6 +1,6 @@
 $GROUP_ID = Read-Host -Prompt 'Input Group ID'
 
-Connect-MicrosoftTeams     
+# Connect-MicrosoftTeams     
 
 $global:TeamGuests = Get-TeamUser -GroupId $GROUP_ID -Role Member | select name
 $global:Owner = Get-TeamUser -GroupId $GROUP_ID -Role Owner | select name
